@@ -36,12 +36,12 @@ public class WelcomeController {
 	public String getWelcomePage(ModelMap model) {
 		// Channel-1
 		Channel channel = new Channel();
-		channel.setChannelName("Students");
+		channel.setChannelName("Music & Movies");
 		channel.setId(1L);
 		
 		// Channel-2
 		Channel channel2 = new Channel();
-		channel2.setChannelName("Instructors");
+		channel2.setChannelName("Fashion & Style");
 		channel2.setId(2L);
 		
 		// Save channels
